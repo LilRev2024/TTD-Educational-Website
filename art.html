@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>TTD Academy</title>
+    <link rel="icon" href="img/favicon.png" type="image/png">
+
+
+</head>
+<body>
+    <div class="container-fluid bg-warning text-dark">
+
+        <div class="row">
+        <div class="col-md-5 align-center">
+          <a  href="home.html"> <img src="img/logo.png" class="logo" Alt="School Logo" width="100" /></a></div>
+        
+        <div class="col-lg-7"> 
+          <nav class="navbar navbar-expand-lg navbar-light m-2 font-weight-bold h4">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">SERVICES</a>
+              </li>
+              <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="activities.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ACTIVITIES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="activities.html">SCHOOL ACTIVITIES</a>
+          <a class="dropdown-item" href="science.html">SCIENCE</a>
+          <a class="dropdown-item active" href="art.html">ART</a>
+          <a class="dropdown-item" href="quiz.html">Practice Quiz</a>
+        </div>
+      </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">CONTACTS</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid-padding" id="science">
+      <div class="row text-center padding">
+        <div class="col-12">
+        <h1 class="display-2">The World of Art <img src="img/Globe.png" alt="The World" class="Image of a Globe" width="150"></h1>
+       </div>
+     </div>
+   </div>
+
+   <div class="row">
+     <div class="col-12">
+    <div class=" nav-link display-5 text-center"><a href="#gallery"><i> Click to view our Gallary </i></a></div>
+  </div>
+</div>
+
+   <p>Art is something we do, a verb. Art is an expression of our thoughts, emotions, intuitions, and desires, but it is even more personal than that: it’s about sharing the way we experience the world, which for many is an extension of personality.
+The topics we will be focusing on includes:</p>
+<span id="dots">...</span><span id="more">
+
+  <div class="container-fluid-padding">
+<div class="row text-left padding">
+<div class="col-xs-12 col-sm-6 col-md-9">
+    <ol>
+  <li>Music</li>
+  <li>Sculpture</li>
+  <li>Drawing</li>
+  </ol>
+</div>
+</div>
+</div>
+</span>
+
+<button onclick="myFunction()" id="myBtn">Read more</button>
+
+      <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+<div class="container-fluid-padding">
+<div class="row">
+<div class="col-xs-12 col-sm-6 col-md-4">
+<div class="h1 text-center padding">Music</div>
+<h3>What is Music?</h3>
+<ul style="list-style-type:square;">
+  <p >Music is a collection of coordinated sound or sounds. Music is the process of putting sounds and tones in an order, often combining them to create a unified composition. People who make music creatively organize sounds for a desired result, like a Beethoven symphony or one of Duke Ellington's jazz songs.</p>
+    <div class="image text-center padding"><img src="img/Music.jpg" alt="Image of icon representing music" class="Music" width="150"></div>
+  <br>
+  <p>Music is made of sounds, vibrations, and silent moments, and it doesn't always have to be pleasant or pretty. It can be used to convey a whole range of experiences, environments, and emotions. Different generes of Music includes:</p>
+  </span>
+</ul>
+<dl>
+  <dt> Jazz </dt>
+  <dd> jazz, musical form, often improvisational, developed by African Americans and influenced by both European harmonic structure and African rhythms. </dd>
+  <dt> Pop </dt>
+  <dd> a type of music, usually played on electronic instruments, that is popular with many people because it consists of short songs with a strong beat and simple tunes that are easy to remember. Pop music is often simply called pop. </dd>
+  <dt> Rock </dt>
+  <dd> rock, also called rock and roll, rock & roll, or rock ’n’ roll, form of popular music that emerged in the 1950s. It is certainly arguable that by the end of the 20th century rock was the world’s dominant form of popular music. </dd>
+  <dt> Rhythm and Blues </dt>
+  <dd> Rhythm and Blues as we understand it today most often describes a style of music that developed after World War II that combines elements of pop, gospel, blues and jazz with a strong back beat. </dd>
+  <dt> Reggea </dt>
+  <dd> popular music of Jamaican origin that combines native styles with elements of rock and soul music and is performed at moderate tempos with the accent on the offbeat </dd>
+  <dt> Hip Hop </dt>
+  <dd> Hip-Hop music is a musical genre consisting of a stylized rhythmic music originally created by DJs isolating the percussion breaks of popular songs, sometimes with two turntables to extend the breaks. </dd>
+  <dt> Gospel </dt>
+  <dd> Gospel music is a style of Christian music that has both inspired and drawn from popular music traditions. </dd>
+  <dt> Blues </dt>
+  <dd> The blues is a type of music which was developed by African American musicians in the southern United States. It is characterized by a slow tempo and a strong rhythm. </dd>
+  <dt> Folk </dt>
+  <dd> Folk music, type of traditional and generally rural music that originally was passed down through families and other small social groups. </dd>
+  <dt> Country </dt>
+  <dd> Country music is style of music from the southern and western regions of the United States, often focused on the stories of the people living in those regions. </dd>
+  <dt> Soul </dt>
+  <dd> Soul music was originated in African American gospel singing, is closely related to rhythm and blues, and is characterized by intensity of feeling and vocal. 
+</dl>
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-4">
+
+    <div class="h1 text-center padding">Sculpture</div>
+    <h3> What is Sculpture?</h3>
+    <div class="image text-center padding"><img src="img/Sculpture.jpg" alt="Image depicting a Sculputure" class="Sculputure" width="150"></div>
+    <br>
+    <p>sculpture, an artistic form in which hard or plastic materials are worked into three-dimensional art objects. The designs may be   embodied in freestanding objects, in reliefs on surfaces, or in environments ranging from tableaux to contexts that envelop the spectator.
+
+      <div class="image text-center padding"><img src="img/Sculpture1.jpg" alt="Image depicting a Sculputure" class="Sculputure1" width="150"></div>
+
+      <br><br>An enormous variety of media may be used, including clay, wax, stone, metal, fabric, glass, wood, plaster, rubber, and random “found” objects. Materials may be carved, modeled, molded, cast, wrought, welded, sewn, assembled, or otherwise shaped and combined. The seven elements of Sculputue includes:</p>
+
+    <ul>
+      <dt> Line </dt>
+      <dd> Line is defined as a point moving in space where its length is greater than its width.</dd>
+      <dt> Color </dt>
+      <dd> Color can be used symbolically or to produce a pattern or to show contrast in a piece.</dd>
+      <dt> Value </dt>
+      <dd> Value is the lightness or darkness in color. </dd>
+      <dt> Shape </dt>
+      <dd> Shape is the result of closed lines, they are two dimensional and flat. Shapes can be geometric, such as squares or triangles or they can be organic and not have defined parameters and are more curved and abstract. Shapes in art can be used to control how the viewer perceives a piece. </dd>
+      <dt> Form </dt>
+      <dd> When shape acquires depth and becomes three dimensional, it takes on form. </dd>
+      <dt> Space </dt>
+      <dd> Space is any area an artist creates for a specific purpose. Space can be positive or negative. Positive space is an area occupied by an object or form. Negative space is the area that runs between, through, and around or within objects. This includes background, foreground, and middle ground. Space that can be manipulated in art based on how an artist uses lines, shape, form, and color. </dd>
+      <dt> Texture </dt>
+      <dd> Texture is how an object looks or feels. Sometimes texture can actually felt, such as in sculpture or the texture of work can be implied such as if you were to sketch a sheep’s wool. Some words to describe texture include soft, hard, rough, brittle, fluffy, or smooth. </dd>
+    </ul>
+
+
+
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+
+      <div class="h1 text-center padding">Drawing</div>
+      <h3>What is Drawing?</h3>
+      <div class="image text-center padding"><img src="img/Drawing.jpg" alt="Picture of the black and white drawing of a cat" class="Drawing" width="150"></div>
+    <br><p>Drawing, the art or technique of producing images on a surface, usually paper, by means of marks, usually of ink, graphite, chalk, charcoal, or crayon. 
+
+      <div class="image text-center padding"><img src="img/Drawing1.jpg" alt="Picture of the coloured drawings of three eyes" class="Drawing1" width="150"></div>
+
+      <br>
+
+      Drawing as formal artistic creation might be defined as the primarily linear rendition of objects in the visible world, as well as of concepts, thoughts, attitudes, emotions, and fantasies given visual form, of symbols and even of abstract forms. The six main techniques in drawing for accuracy are: </p>
+
+      <ul>
+        <dl>
+        <dt> Sighting / Measuring </dt>
+        <dd> We can use “tools” to measure proportions of our subject in order to improve the accuracy of what we record in our drawings. We can use any tool that we wish, but a pencil works surprisingly well. </dd>
+        <dt> The Grid Technique </dt>
+        <dd> The grid technique is an approach to drawing that breaks the subject down into “bite-sized” pieces of visual information. </dd>
+        <dt> Triangular Grid Technique </dt>
+        <dd> An alternative to using the traditional grid technique is the triangular grid technique. This technique uses far less lines but requires a bit more from the artist. </dd>
+        <dt> Linear Perspective </dt>
+        <dd> Linear perspective is a system that uses lines to aid the artist in creating the illusion of space in a drawing. </dd>
+        <dt> Basic Facial Proportions </dt>
+        <dd> Although every face is different, certain approximate facial proportions do exist. We can use these approximations to ensure that the features of the face are placed in the right locations and that the size of each of the features are natural. </dd>
+        <dt> Figure Proportions and Gesture Drawing </dt>
+        <dd> Just as knowledge of basic facial proportions can be used to ensure accuracy in portrait drawing, knowledge of approximate figure proportions can aid in creating accurate figure drawings </dd>
+      </dl>
+      </ul>
+
+      <div class="image text-center padding"><img src="img/Drawing2.jpg" alt="Picture of someone doing a sketch of a gorilla" class="Drawing2" width="500"></div>
+    </div>
+
+    </div>
+    <!-- Gallery -->
+    <div class="container-fluid-padding" id="gallery">
+      <div class="row text-center">
+        <div class="col-12">
+          <h1 class="display-4"> Gallery </h1>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="image text-center padding"><img src="img/Drawing3.jpg" alt="Picture showing drawing of a flower plant" class="Drawing3" width="300"></div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="video text-center padding"><video src="vid/Music.mp4" controls width="400"></video> </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="image text-center padding"><img src="img/Sculpture3.jpg" alt="Picture" class="Picture showing painted stainless steel" width="300" height="300">
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <br>
+          <div class="image text-center padding"><img src="img/Drawing4.jpg" alt="Picture" class="Picture showing drawing of a deer" width="280"></div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="image text-center padding"><img src="img/Sculpture2.jpg" alt="Picture" class="Picture showing drawing of a sculpture reading a book" width="300" height="300">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="image text-center padding"><img src="img/Drawing5.jpg" alt="Picture" class="Picture showing 3D drawing of girl wearing a dress made of vegetables" width="300"></div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+<div class="p"><i>Click the button to get your coordinates.</i><br>
+
+<button onclick="getLocation()">Get Location</button><br></div>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+
+</script>
+<br>
+
+ <!-- Footer -->
+    <footer>
+      <div class="container-fluid padding text-center padding bg-warning text-dark">
+        <div class="row text-center padding">
+          <div class="col-12 social-footer-icons">
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <p> Copyright &copy 2021 </p>
+            <p><a href="home.html">Home</a> | <a href="services.html">Services</a> | <a href="activities.html">Activities</a> | <a href="contacts.html">Contacts</a> | <a href="sitemap.html">Site Map</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    </footer>
+
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+
+  </body>
+</html>
